@@ -48,3 +48,14 @@ body {
   margin: 15px auto;
   display: block;
 }
+
+.social-links a{
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.list-group-item{
+  border: none;
+  transition: 0.1s;
+}

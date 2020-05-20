@@ -15,14 +15,30 @@ $("#menu-toggle").click(function(e) {
     });
   });
 
-  $('#foo').hide();
+  $('.skills').hide();
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100 && $(this).scrollTop() < 1500) {
-      $('#foo').fadeIn();
+      $('.skills').fadeIn(1500);
     } else {
-      $('#foo').fadeOut();
+      $('.skills').fadeOut(1000);
     }
-  });  
+  }); 
+
+ 
 
 
+
+//  test function
+$(function () {
+  $(".allweb").click(function () {
+    if ($(this).find("#mmm, #zzz")) {
+      $("#mmm, #zzz").toggle(1500);
+    }
+  });
+  $(".allweb").click(function () {
+    if ($(this).find("#aaa")) {
+      $("#aaa").css("color", "red");
+    }
+  });
+});

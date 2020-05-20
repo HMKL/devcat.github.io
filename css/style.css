@@ -84,14 +84,14 @@ body {
   
 }
 
-#test span {
+#sidebar_btn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-#test span:after {
+#sidebar_btn span:after {
   font-family: "Font Awesome 5 Free";
   color: #A9A9A9;
   /* content: "\f0da"; */
@@ -103,11 +103,35 @@ body {
   transition: 0.5s;
 }
 
-#test:hover span {
+#sidebar_btn:hover span {
   padding-left: 10px;
 }
 
-#test:hover span:after {
+#sidebar_btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+li{
+  list-style: none;
+}
+.aboutme>ul>li>svg{
+  margin-right: 5px;
+}
+
+section{
+  padding: 60px 0;
+  overflow: hidden;
+}
+.services{
+  background-color: #f5f8fd;
+}
+.list-inline>li{
+  display: inline;
+}
+.list-inline{
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
+  transition: all 0.3s ease-in-out;
 }

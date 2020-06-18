@@ -31,14 +31,31 @@ $("#menu-toggle").click(function(e) {
 
 //  test function
 $(function () {
-  $(".allweb").click(function () {
-    if ($(this).find("#mmm, #zzz")) {
-      $("#mmm, #zzz").toggle(1500);
+  $(".objects").click(function () {
+    if ($(this).find("#o1, #o4, #o7, #o8")) {
+      $("#o1,#o4, #o7, #o8").toggle(1500);
     }
   });
-  $(".allweb").click(function () {
-    if ($(this).find("#aaa")) {
-      $("#aaa").css("color", "red");
+  $(".allthings").click(function () {
+    if ($(this).find(".all")) {
+      $(".all").show(2000);
+    } 
+  });
+  $('.oils').click(function () {
+    if ($(this).find("#o2, #o3, #o5")) {
+      $("#o2, #o3, #o5").toggle(1500);
     }
   });
+});
+
+
+$(document).ready(function () {
+  $(".image-frame").hover(
+    function () {
+      $(".image-caption", this).slideToggle("slow");
+    },
+    function () {
+      $(".image-caption", this).slideToggle("slow");
+    }
+  );
 });

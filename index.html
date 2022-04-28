@@ -38,12 +38,12 @@
         </a>
       </div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Hover </span></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Shortcuts</span></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Overview</span></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Events</span></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Profile</span></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" id="sidebar_btn"><span>Status</span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Hover </span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Shortcuts</span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Overview</span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Events</span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Status</span></a>
+        <a href="#" class="list-group-item list-group-item-action bg-light sidebar_btn"><span>Profile</span></a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -51,17 +51,16 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle"> <i class="fas fa-angle-double-left"></i></i></button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      <nav class="navbar navbar-expand-lg border-bottom">
+        <button class="btn btn-primary" id="menu-toggle"><i class='fas fa-angle-double-left'></i></button>
+        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -135,8 +134,8 @@
                 <div class="col-6 skills">
                   <span> HTML </span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
-                      aria-valuemin="0" aria-valuemax="100"> 80%</div>
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100"> 80%</div>
                   </div>
                   <span> CSS </span>
                   <div class="progress">
@@ -158,8 +157,8 @@
                   </div>
                   <span> Javascript </span>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25"
-                      aria-valuemin="0" aria-valuemax="30"> 30%</div>
+                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="30"> 30%</div>
                   </div>
                   <span> Photoshop </span>
                   <div class="progress">
@@ -185,17 +184,17 @@
                   <li class="allweb">Web</li>
                   <li class="allcard">Card</li>
                 </ul> -->
-                 <div class="btn-group btn-group-sm p-2" role="group">
-                <button type="button" class="btn btn-dark allthings" id="qwe">All</button>
-                <button type="button" class="btn btn-dark objects">Objects</button>
-                <button type="button" class="btn btn-dark oils">Oils</button>
+                <div class="btn-group btn-group-sm p-2" role="group">
+                  <button type="button" class="btn btn-dark allthings"> All</button>
+                  <button type="button" class="btn btn-dark objects">Objects</button>
+                  <button type="button" class="btn btn-dark oils">Oils</button>
+                </div>
               </div>
-              </div>
-             
+
             </div>
             <div class="row" id="firstrow">
 
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o1">
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title </p>
                   <p>asdasd</p>
@@ -204,50 +203,47 @@
               </div>
 
 
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o2" >
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
                 </div>
                 <img class="img-fluid" src="./src/2.jpg">
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o3" >
 
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
-                  <!-- <button>asdasd</button> -->
                 </div>
                 <img class="img-fluid" src="./src/3.jpg">
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o4">
 
-                <!-- <img class="img-fluid" src="./src/3.jpg"> -->
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
                 </div>
                 <img class="img-fluid" src="./src/4.jpg">
-
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o5">
 
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
                 </div>
                 <img class="img-fluid" src="./src/5.jpg">
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all">
+              <div>
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
                 </div>
                 <img class="img-fluid" src="./src/6.jpg">
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o7">
+              <div>
 
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
                 </div>
                 <img class="img-fluid" src="./src/7.jpg">
               </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 image-frame p-0 all" id="o8">
+              <div>
 
                 <div class="card-body p-0 image-caption">
                   <p class="card-text">Some quick example text to build on the card title</p>
